@@ -21,7 +21,7 @@ int main() {
     // 使用当前时间作为随机数种子，确保每次运行的随机数不同
     srand((unsigned int)time(NULL));
 
-    // 调用 Magic 函数，可能是初始化或绘制背景
+    // 调用 Magic 函数，初始化 Magic 图形框架
     Magic();
 
     // 定义不同的图像对象，表示游戏的不同元素
